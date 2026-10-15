@@ -1,1 +1,17 @@
-# burettetrycoding.github.io
+# 1. Initialize local repository
+git init
+
+# 2. Stage all project files
+git add .
+
+# 3. Commit the arcade game
+git commit -m "feat: complete Tetris Pro Arcade release"
+
+# 4. Set default branch to main
+git branch -M main
+
+# 5. Link your GitHub remote (replace with your repo URL)
+git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/tetris-pro-arcade.git
+
+# 6. Push to GitHub!
+git push -u origin main
